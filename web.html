@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylenavbar.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Coding - SiteWEB</title>
+</head>
+<body>
+    <!--start project-->
+
+    <!--Navbar-->
+    <header>
+        <div class="container">
+            <!--logo-->
+            <div>
+                <span><a href="home.html" class="btn-flip" data-back="Coding" data-front="Coding"></a></span>
+            </div>
+            <!--navbar-->
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="c.html">c famille</a></li>
+                <li class="abs">
+                    <div class="dropdown">
+                        <button class="dropbtn">Browse Project
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="mobile.html">mobile</a>
+                          <a href="web.html">web</a>
+                          <a href="desktop.html">desktop</a>
+                        </div>
+                      </div>
+                </li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+        <hr>
+    </header>
+
+    <!--main-->
+    <main>
+        <section class="defM">
+            <div>
+                <span>Developement web</span>
+                <p>Le développement Web est le travail impliqué dans le développement d'un site Web pour Internet ou un intranet. Le développement Web peut aller du développement d'une simple page statique de texte brut à des applications Web complexes, des entreprises électroniques et des services de réseaux sociaux</p>
+            </div>
+            <img src="pic/site.jpg" alt="">
+        </section>
+        <section>
+            <h2>les differents langages de developpement web</h2>
+            <table border="1">
+                <tr>
+                    <td rowspan="2" width="80%">
+                        <span>html</span><br>
+                        Le HyperText Markup Language, généralement abrégé HTML ou, dans sa dernière version, HTML5, est le langage de balisage conçu pour représenter les pages web. Ce langage permet : d’écrire de l’hypertexte, d’où son nom, de structurer sémantiquement la page, de mettre en forme le contenu . 
+                        HTML5 est la dernière révision majeure du HTML. Cette version a été finalisée le 28 octobre 2014. HTML5 spécifie deux syntaxes d'un modèle abstrait défini en termes de DOM : HTML5 et XHTML5. Le langage comprend également : une couche application avec de nombreuses API .
+                    </td>
+                    <td rowspan="2" width="20%"><img src="pic/7-image_web.jpg" alt=""></td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <td rowspan="2" width="80%">
+                        <span>css</span><br>
+                        Les feuilles de style en cascade, généralement appelées CSS de l'anglais Cascading Style Sheets, forment un langage informatique qui décrit la présentation des documents HTML et XML. Les standards définissant CSS sont publiés par le World Wide Web Consortium.
+                    </td>
+                    <td rowspan="2" width="20%"><img src="pic/31-312263_m.jpg" alt=""></td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <td rowspan="2" width="80%">
+                        <span>JavaScript</span><br>
+                        JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. Avec les technologies HTML et CSS, JavaScript est parfois considéré comme l'une des technologies cœur du World Wide Web.
+                    </td>
+                    <td rowspan="2" width="20%"><img src="pic/javascript.png" alt=""></td>
+                </tr>
+            </table>
+            <table border="1">
+                <tr>
+                    <td rowspan="2" width="80%">
+                        <span>php</span><br>
+                        PHP: Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet.
+                    </td>
+                    <td rowspan="2" width="20%"><img src="pic/php.jpg" alt=""></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <hr id="contact">
+            <div class="ff">
+              <div class="about">
+                <h2 style="color: #2196F3;">about me</h2>
+                <hr class="sep"/>
+                <p class="pf">
+                  Hello! my name is ameur maraoui ghribi , 21 years old and i'm a front-end developper <br><br> Also i'm a student in "faculté Sciences economie et gestion " .
+                </p>
+              </div>
+              <div class="wrapper" >
+                <form>
+                    <h2 style="color: #2196F3;">contact us</h2>
+                  <hr class="sep"/>
+                  <div class="group">
+                    <input type="text" required="required"/><span class="highlight"></span><span class="bar"></span>
+                    <label>Name</label>
+                  </div>
+                  <div class="group">
+                    <input type="text" required="required"/><span class="highlight"></span><span class="bar"></span>
+                    <label>Email</label>
+                  </div>
+                  <div class="group">
+                    <input type="number" required="required"/><span class="highlight"></span><span class="bar"></span>
+                    <label>Number</label>
+                  </div>
+                  <div class="group">
+                    <textarea type="textarea" rows="5" required="required"></textarea><span class="highlight"></span><span class="bar"></span>
+                    <label>Message</label>
+                  </div>
+                  <div class="btn-box">
+                    <button class="btn btn-submit" type="submit">submit</button>
+                    <button class="btn btn-cancel" type="button">cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <hr>
+            <!--links-->
+            <div class="links">
+                <div class="site">
+                    <p>Browse</p>
+                    <ul class="liste">
+                        <li><a href="home.html">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <p>project</p>
+                    <ul class="liste">
+                        <li><a href="c.html">C Family</a></li>
+                        <li><a href="mobile.html">Mobile Programing Language</a></li>
+                        <li><a href="web.html">Site Developing Language</a></li>
+                        <li><a href="desktop.html">Desktop Programing Language</a></li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <div class="pic">
+                    <p>Social</p>
+                    <img src="pic/2099443-code-de-programmation-codage-ou-hacker-background-programmation-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vectoriel.jpg" alt="">
+                    </div>
+                    <!--social icone + phone-->
+                    <ul class="icone">
+                        <li><a href="tel:+21652955963" target="_blank"><i class="fa fa-phone-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/ameurghribi1" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/ameur_ghribi_1/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="https://fr.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://github.com/ameurghribi" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <!--droit-->
+            <span>© 2020-2021 Futura-Sciences, tous droits réservés - Ameur Maraoui Ghribi</span>
+        </div>
+    </footer>
+</body>
+</html>
